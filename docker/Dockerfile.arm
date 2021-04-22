@@ -1,0 +1,9 @@
+FROM dronehippie/base:arm
+
+LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
+  org.opencontainers.image.title="Drone Manifest" \
+  org.opencontainers.image.vendor="Webhippie" \
+  org.opencontainers.image.documentation="https://dronehippie.github.io/manifest/"
+
+ENTRYPOINT ["/bin/drone-manifest"]
+ADD bin/drone-manifest /bin/

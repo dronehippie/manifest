@@ -1,0 +1,6 @@
+title: manifest
+description: Drone plugin provided by Webhippie
+baseurl: /manifest
+
+email: mail@webhippie.de
+theme: jekyll-theme-cayman
